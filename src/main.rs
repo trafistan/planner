@@ -3,6 +3,7 @@ use std::error::Error;
 use postgres::{Client, NoTls};
 
 fn main() -> Result<(), Box<dyn Error>> {
+    print!("{}", env::var("PASSWORD")?);
     let mut client = Client::connect(&format!(
         "host=tf-2025081018303032650000000a.cluster-c1y2k8e8uxdb.eu-central-1.rds.amazonaws.com user=postgres password={} dbname=db",
         env::var("PASSWORD")?
