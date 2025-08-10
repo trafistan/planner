@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deployment:
+    permissions:
+      contents: read
+      id-token: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aws-actions/configure-aws-credentials@v4.2.1
+        with:
+          aws-region: eu-central-1
+          role-to-assume: arn:aws:iam::218382887364:role/github
+      - uses: aws-actions/amazon-ecr-login@v2
+      - run: docker build -t 218382887364.dkr.ecr.eu-central-1.amazonaws.com/planner:latest .
+      - run: docker push 218382887364.dkr.ecr.eu-central-1.amazonaws.com/planner:latest
