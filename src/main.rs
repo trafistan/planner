@@ -63,15 +63,14 @@ static DATA: &[Device] = include!("data.gen.rs");
 async fn main() {
     let t = std::time::Instant::now();
 
-    let (client, connect) = tokio_postgres::connect(
-        &format!(
-            "host=rds.trafistan.com user=postgres password={} dbname=db",
-            std::env::var("PASSWORD").unwrap()
-        ),
-        tokio_postgres::NoTls,
-    )
-    .await
-    .unwrap();
+    let (client, connect) = tokio_postgres::Config::new()
+        .host("rds.trafistan.com")
+        .user("postgres")
+        .password(std::env::var("PASSWORD").unwrap())
+        .dbname("db")
+        .connect(tokio_postgres::NoTls)
+        .await
+        .unwrap();
 
     tokio::spawn(connect);
 
