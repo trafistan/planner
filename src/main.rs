@@ -29,6 +29,7 @@ static HTTP: std::sync::LazyLock<
         )
 });
 
+#[derive(Copy, Clone)]
 struct Device {
     name: &'static str,
     oss: &'static [Os],
@@ -36,18 +37,21 @@ struct Device {
     weight: f32,
 }
 
+#[derive(Copy, Clone)]
 struct Os {
     name: &'static str,
     browsers: &'static [Browser],
     weight: f32,
 }
 
+#[derive(Copy, Clone)]
 struct Browser {
     name: &'static str,
     user_agents: &'static [&'static str],
     weight: f32,
 }
 
+#[derive(Copy, Clone)]
 struct Screen {
     resolution: &'static str,
     weight: f32,
@@ -83,11 +87,8 @@ async fn main() {
         let request = Request::get(
             Uri::builder().scheme("https").authority(url).path_and_query({
                 let mut path = String::with_capacity(sitemap.len() + 1);
-
                 path.push('/');
-
-                path += sitemap.strip_prefix('/').unwrap_or(sitemap);
-
+                path.push_str(sitemap);
                 path
             }).build().unwrap(),
         ).body(Empty::new()).unwrap();
