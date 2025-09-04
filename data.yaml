@@ -1,0 +1,529 @@
+- name: Mobile
+  weight: 76.74
+  oss:
+    - name: Android
+      weight: 75.33
+      browsers:
+        - name: Chrome
+          weight: 74.33
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Samsung Internet
+          weight: 3.74
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Yandex Browser
+          weight: 2.35
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Opera
+          weight: 1.43
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Firefox
+          weight: 0.16
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: UC Browser
+          weight: 0.13
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Edge
+          weight: 0.07
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Brave
+          weight: 0.05
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Android # Unknown
+          weight: 0.03
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Puffin
+          weight: 0.02
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    - name: iOS
+      weight: 24.34
+      browsers:
+        - name: Chrome
+          weight: 74.33
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Safari
+          weight: 17.66
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Yandex Browser
+          weight: 2.35
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Opera
+          weight: 1.43
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Firefox
+          weight: 0.16
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: UC Browser
+          weight: 0.13
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Edge
+          weight: 0.07
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Brave
+          weight: 0.05
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Puffin
+          weight: 0.02
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    - name: Samsung
+      weight: 0.31
+      browsers:
+        - name: Samsung Internet
+          weight: 3.74
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Yandex Browser
+          weight: 2.35
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Opera
+          weight: 1.43
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Firefox
+          weight: 0.16
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Edge
+          weight: 0.07
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Brave
+          weight: 0.05
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+  screens:
+    - resolution: 393x873
+      weight: 8.37
+    - resolution: 360x800
+      weight: 5.82
+    - resolution: 390x844
+      weight: 4.05
+    - resolution: 414x896
+      weight: 3.95
+    - resolution: 393x851
+      weight: 3.1
+    - resolution: 384x832
+      weight: 2.59
+    - resolution: 412x915
+      weight: 2.35
+    - resolution: 360x640
+      weight: 2.2
+    - resolution: 430x932
+      weight: 2.06
+    - resolution: 393x852
+      weight: 1.91
+    - resolution: 360x780
+      weight: 1.88
+    - resolution: 375x667
+      weight: 1.87
+    - resolution: 385x854
+      weight: 1.54
+    - resolution: 412x892
+      weight: 1.32
+    - resolution: 375x812
+      weight: 1.07
+    - resolution: 384x857
+      weight: 1.01
+    - resolution: 393x895
+      weight: 0.99
+    - resolution: 360x820
+      weight: 0.94
+    - resolution: 407x904
+      weight: 0.9
+    - resolution: 414x736
+      weight: 0.9
+- name: Desktop
+  weight: 22.06
+  oss:
+    - name: Windows
+      weight: 71.71
+      browsers:
+        - name: Google Chrome
+          weight: 74.39
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Microsoft Edge
+          weight: 9.44
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Opera
+          weight: 6.06
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Yandex Browser
+          weight: 4.38
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Firefox
+          weight: 2.01
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Brave
+          weight: 0.52
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Internet Explorer
+          weight: 0.19
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Microsoft Edge Legacy
+          weight: 0.09
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: 360 Safe Browser
+          weight: 0.06
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Mozilla
+          weight: 0.05
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    - name: Linux
+      weight: 6.75
+      browsers:
+        - name: Google Chrome
+          weight: 74.39
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Opera
+          weight: 6.06
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Yandex Browser
+          weight: 4.38
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Firefox
+          weight: 2.01
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Brave
+          weight: 0.52
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: 360 Safe Browser
+          weight: 0.06
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Mozilla
+          weight: 0.05
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    - name: OS X
+      weight: 3.44
+      browsers:
+        - name: Google Chrome
+          weight: 74.39
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Opera
+          weight: 6.06
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Yandex Browser
+          weight: 4.38
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Safari
+          weight: 2.79
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Firefox
+          weight: 2.01
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Brave
+          weight: 0.52
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: 360 Safe Browser
+          weight: 0.06
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Mozilla
+          weight: 0.05
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    - name: macOS
+      weight: 3.3
+      browsers:
+        - name: Google Chrome
+          weight: 74.39
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Opera
+          weight: 6.06
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Yandex Browser
+          weight: 4.38
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Safari
+          weight: 2.79
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Firefox
+          weight: 2.01
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Brave
+          weight: 0.52
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: 360 Safe Browser
+          weight: 0.06
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Mozilla
+          weight: 0.05
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    - name: ChromeOS
+      weight: 0.05
+      browsers:
+        - name: Google Chrome
+          weight: 74.39
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Opera
+          weight: 6.06
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Yandex Browser
+          weight: 4.38
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Firefox
+          weight: 2.01
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Brave
+          weight: 0.52
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: 360 Safe Browser
+          weight: 0.06
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Mozilla
+          weight: 0.05
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+  screens:
+    - resolution: 1920x1080
+      weight: 26.67
+    - resolution: 1366x768
+      weight: 21.64
+    - resolution: 1536x864
+      weight: 13.61
+    - resolution: 360x806
+      weight: 0.4
+    - resolution: 1280x720
+      weight: 3.73
+    - resolution: 1440x900
+      weight: 3.39
+    - resolution: 360x800
+      weight: 2.18
+    - resolution: 1600x900
+      weight: 2.05
+    - resolution: 2560x1440
+      weight: 2.01
+    - resolution: 1024x768
+      weight: 1.79
+    - resolution: 1280x800
+      weight: 1.6
+    - resolution: 1280x1024
+      weight: 1.55
+    - resolution: 1360x768
+      weight: 1.29
+    - resolution: 360x820
+      weight: 1.25
+    - resolution: 1680x1050
+      weight: 0.74
+    - resolution: 384x832
+      weight: 0.57
+    - resolution: 393x873
+      weight: 0.57
+    - resolution: 1536x960
+      weight: 0.55
+    - resolution: 1470x956
+      weight: 0.51
+    - resolution: 810x1080
+      weight: 0.43
+- name: Tablet
+  weight: 1.21
+  oss:
+    - name: Android
+      weight: 76.91
+      browsers:
+        - name: Chrome
+          weight: 68.61
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Android
+          weight: 8.46
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Yandex Browser
+          weight: 5.9
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Opera
+          weight: 2.69
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Edge
+          weight: 0.22
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Firefox
+          weight: 0.09
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Puffin
+          weight: 0.07
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: UC Browser
+          weight: 0.06
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Kindle
+          weight: 0.02
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    - name: iOS
+      weight: 23
+      browsers:
+        - name: Chrome
+          weight: 68.61
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Safari
+          weight: 13.79
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Yandex Browser
+          weight: 5.9
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Opera
+          weight: 2.69
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Edge
+          weight: 0.22
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Firefox
+          weight: 0.09
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Puffin
+          weight: 0.07
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: UC Browser
+          weight: 0.06
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Kindle
+          weight: 0.02
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    - name: Linux
+      weight: 0.08
+      browsers:
+        - name: Chrome
+          weight: 68.61
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Yandex Browser
+          weight: 5.9
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Opera
+          weight: 2.69
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Edge
+          weight: 0.22
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Firefox
+          weight: 0.09
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Puffin
+          weight: 0.07
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: UC Browser
+          weight: 0.06
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+        - name: Kindle
+          weight: 0.02
+          user_agents:
+            - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+  screens:
+    - resolution: 1280x800
+      weight: 13.79
+    - resolution: 768x1024
+      weight: 12.51
+    - resolution: 800x1280
+      weight: 6.69
+    - resolution: 1334x800
+      weight: 5.64
+    - resolution: 810x1080
+      weight: 4.74
+    - resolution: 800x1334
+      weight: 4.57
+    - resolution: 601x1007
+      weight: 4.26
+    - resolution: 962x601
+      weight: 4
+    - resolution: 601x962
+      weight: 3.78
+    - resolution: 820x1180
+      weight: 3.47
+    - resolution: 1280x720
+      weight: 3.32
+    - resolution: 600x1024
+      weight: 2.54
+    - resolution: 1024x600
+      weight: 2.4
+    - resolution: 1007x601
+      weight: 2.2
+    - resolution: 960x600
+      weight: 1.79
+    - resolution: 1143x686
+      weight: 1.53
+    - resolution: 686x1143
+      weight: 1.46
+    - resolution: 1205x753
+      weight: 1.45
+    - resolution: 600x960
+      weight: 1.43
+    - resolution: 1024x1366
+      weight: 1.23
